@@ -8,16 +8,16 @@ for (let i = 1; i <= 10; i++) {
 
 // 2. Even or Odd Checker
 // Ask the user for a number and check whether it is even or odd using an if...else.
-// const NumChecker = (num) => {
-//   if (num % 2 === 0) {
-//     return `The number ${num} is Even`;
-//   } else {
-//     return `The number ${num} is Old `;
-//   }
-// };
+const NumChecker = (num) => {
+  if (num % 2 === 0) {
+    return `The number ${num} is Even`;
+  } else {
+    return `The number ${num} is Old `;
+  }
+};
 
-// console.log(NumChecker(8));
-// console.log(NumChecker(5));
+console.log(NumChecker(8));
+console.log(NumChecker(5));
 
 // 3. Simple Calculator (Addition)
 // Create a program that takes two numbers from the user and displays their sum.
